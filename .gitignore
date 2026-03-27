@@ -1,0 +1,22 @@
+# Auto-generated triage logs — local only
+logs/weekly-log.md
+
+# Environment variables — never commit
+.env
+.env.local
+*.env
+
+# OAuth tokens — never commit
+token.json
+credentials.json
+*_token.json
+*_credentials.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
