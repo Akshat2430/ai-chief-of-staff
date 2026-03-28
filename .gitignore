@@ -9,6 +9,7 @@ logs/weekly-log.md
 # OAuth tokens — never commit
 token.json
 credentials.json
+client_secret*.json
 *_token.json
 *_credentials.json
 

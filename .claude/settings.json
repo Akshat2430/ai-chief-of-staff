@@ -1,22 +1,12 @@
 {
   "mcpServers": {
     "gmail": {
-      "command": "npx",
-      "args": ["-y", "@gptscript-ai/gmail-mcp-server"],
-      "env": {
-        "GMAIL_CLIENT_ID": "${GMAIL_CLIENT_ID}",
-        "GMAIL_CLIENT_SECRET": "${GMAIL_CLIENT_SECRET}",
-        "GMAIL_REFRESH_TOKEN": "${GMAIL_REFRESH_TOKEN}"
-      }
+      "type": "http",
+      "url": "https://gmail.mcp.claude.com/mcp"
     },
-    "google-calendar": {
-      "command": "npx",
-      "args": ["-y", "google-calendar-mcp"],
-      "env": {
-        "GOOGLE_CLIENT_ID": "${GOOGLE_CLIENT_ID}",
-        "GOOGLE_CLIENT_SECRET": "${GOOGLE_CLIENT_SECRET}",
-        "GOOGLE_REFRESH_TOKEN": "${GOOGLE_REFRESH_TOKEN}"
-      }
+    "gcal": {
+      "type": "http",
+      "url": "https://gcal.mcp.claude.com/mcp"
     }
   },
   "hooks": {
