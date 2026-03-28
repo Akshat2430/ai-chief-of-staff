@@ -129,7 +129,7 @@ This is the highest-leverage 20 minutes you'll spend.
 
 ### 3. Set up Gmail + Calendar MCPs (optional but recommended)
 
-See [`setup/mcp-setup.md`](setup/mcp-setup.md) for the full guide (~20 minutes).
+See [`setup/mcp-setup.md`](setup/mcp-setup.md) for the full guide (~2 minutes).
 
 If you skip this: paste email content manually when running `/triage`.
 Everything else — the skill, the hook, the context — still works.
