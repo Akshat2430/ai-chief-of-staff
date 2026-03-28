@@ -16,7 +16,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "bash .claude/hooks/post-triage-log.sh"
+            "command": "bash /Users/divyaanshkharbanda/Desktop/claude-playground/ai-chief-of-staff/.claude/hooks/post-triage-log.sh"
           }
         ]
       }
