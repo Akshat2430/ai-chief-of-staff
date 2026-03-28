@@ -12,7 +12,16 @@
   "hooks": {
     "PostToolUse": [
       {
-        "matcher": "mcp__gmail",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash /Users/divyaanshkharbanda/Desktop/claude-playground/ai-chief-of-staff/.claude/hooks/post-triage-log.sh"
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
         "hooks": [
           {
             "type": "command",
