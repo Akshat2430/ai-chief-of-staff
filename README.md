@@ -176,7 +176,6 @@ Morning                     Afternoon / Evening
 
 ## Talk resources
 
-- Slides: *(link to be added)*
 - Demo walkthrough: see the `demo/` folder
 - MCP setup: [`setup/mcp-setup.md`](setup/mcp-setup.md)
 
